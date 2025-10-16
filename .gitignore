@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Local tooling
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets / credentials
+.streamlit/secrets.toml
+
+# Package manager lock (reproducible via uv)
+uv.lock
+
+.serena/

@@ -1,0 +1,14 @@
+[project]
+name = "collectchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "yt-dlp",
+    "clickhouse-connect",
+    "streamlit",
+]
+
+[tool.setuptools]
+py-modules = ["main", "streamlit_cooccurrence_app"]
