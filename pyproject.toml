@@ -3,11 +3,14 @@ name = "collectchat"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9,<3.12"
 dependencies = [
     "yt-dlp",
     "clickhouse-connect",
     "streamlit",
+    "altair",
+    "pandas",
+    "pyarrow",
 ]
 
 [tool.setuptools]
