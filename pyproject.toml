@@ -15,3 +15,6 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["main", "streamlit_cooccurrence_app"]
+
+[tool.poetry]
+package-mode = false
